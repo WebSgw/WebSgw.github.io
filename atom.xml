@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>孙国文的博客 - Guowen Sun&#39;s Blog</title>
+  
+  <subtitle>Be better than never!</subtitle>
+  <link href="https://xiaosunstudy.com/atom.xml" rel="self"/>
+  
+  <link href="https://xiaosunstudy.com/"/>
+  <updated>2022-06-30T20:47:00.406Z</updated>
+  <id>https://xiaosunstudy.com/</id>
+  
+  <author>
+    <name>Guowen Sun</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xiaosunstudy.com/2022/06/30/hello-world/"/>
+    <id>https://xiaosunstudy.com/2022/06/30/hello-world/</id>
+    <published>2022-06-30T20:47:00.406Z</published>
+    <updated>2022-06-30T20:47:00.406Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DIC 补充信息</title>
+    <link href="https://xiaosunstudy.com/2022/03/23/DIC_learning/DIC_appendix/"/>
+    <id>https://xiaosunstudy.com/2022/03/23/DIC_learning/DIC_appendix/</id>
+    <published>2022-03-23T19:34:07.743Z</published>
+    <updated>2022-03-23T19:38:38.675Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>亚像素(sub-pixel) </p><p>亚像素精度是指相邻两像素之间细分情况。输入值通常为二分之一，三分之一或四分之一。这意味着每个像素将被分为更小的单元从而对这些更小的单元实施插值算法。例如，如果选择四分之一，就相当于每个像素在横向和纵向都被当做四个像素来计算。因此，如果一张5x5像素的图像选择了四分之一的亚像素精度后，就等于创建了一张16x16的离散点阵，从而对该点阵进行插值。</p><p><img src="https://s2.loli.net/2022/03/24/HPgLOAtzUbRnpcd.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;亚像素(sub-pixel) &lt;/p&gt;
+&lt;p&gt;亚像素精度是指相邻两像素之间细分情况。输入值通常为二分之一，三分之一或四分之一。这意味</summary>
+      
+    
+    
+    
+    <category term="Digital Image Correlation" scheme="https://xiaosunstudy.com/categories/Digital-Image-Correlation/"/>
+    
+    
+    <category term="DIC" scheme="https://xiaosunstudy.com/tags/DIC/"/>
+    
+    <category term="Theory" scheme="https://xiaosunstudy.com/tags/Theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2D-DIC Theory</title>
+    <link href="https://xiaosunstudy.com/2022/03/21/DIC_learning/DIC_Theory/"/>
+    <id>https://xiaosunstudy.com/2022/03/21/DIC_learning/DIC_Theory/</id>
+    <published>2022-03-21T07:23:22.501Z</published>
+    <updated>2022-03-21T07:24:45.158Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Literature-reading"><a href="#Literature-reading" class="headerlink" title="Literature reading"></a>Literature reading</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Literature-reading&quot;&gt;&lt;a href=&quot;#Literature-reading&quot; class=&quot;headerlink&quot; title=&quot;Literature reading&quot;&gt;&lt;/a&gt;Literature reading&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    <category term="Digital Image Correlation" scheme="https://xiaosunstudy.com/categories/Digital-Image-Correlation/"/>
+    
+    
+    <category term="DIC" scheme="https://xiaosunstudy.com/tags/DIC/"/>
+    
+    <category term="Theory" scheme="https://xiaosunstudy.com/tags/Theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://xiaosunstudy.com/2022/03/20/Untitled/"/>
+    <id>https://xiaosunstudy.com/2022/03/20/Untitled/</id>
+    <published>2022-03-20T16:27:05.525Z</published>
+    <updated>2022-03-20T16:27:05.525Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碳纤维复合材料样品表面处理</title>
+    <link href="https://xiaosunstudy.com/2022/03/20/%E7%A2%B3%E7%BA%A4%E7%BB%B4%E5%A4%8D%E5%90%88%E6%9D%90%E6%96%99/%E7%BA%A4%E7%BB%B4%E5%A4%8D%E5%90%88%E6%9D%90%E6%96%99%E6%A0%B7%E5%93%81%E8%A1%A8%E9%9D%A2%E5%A4%84%E7%90%86/"/>
+    <id>https://xiaosunstudy.com/2022/03/20/%E7%A2%B3%E7%BA%A4%E7%BB%B4%E5%A4%8D%E5%90%88%E6%9D%90%E6%96%99/%E7%BA%A4%E7%BB%B4%E5%A4%8D%E5%90%88%E6%9D%90%E6%96%99%E6%A0%B7%E5%93%81%E8%A1%A8%E9%9D%A2%E5%A4%84%E7%90%86/</id>
+    <published>2022-03-20T15:05:39.841Z</published>
+    <updated>2022-03-20T15:14:35.042Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Surface-Treatment"><a href="#Surface-Treatment" class="headerlink" title="Surface Treatment"></a>Surface Treatment</h2><p>The surface treatment is an essential procedure for obtaining a nice the cross-sectional fiber image. 对于碳纤维复合材料的表面处理有两个步骤：</p><ul><li>Grinding</li><li>Polishing</li></ul><p>我所使用的grinding paper如下：</p><ul><li>P400</li><li>P800</li><li>P1200</li></ul><p>Polishing cloth 如下：</p><ul><li>9 micrometers </li><li>6 micrometers</li><li>3 micrometers</li><li>1 micrometers</li></ul><p>与之相对应的还要有diamond suspension，但是忘记了当初使用的具体参数了，等到办公室记录了之后再补充上来。</p><p>如果对于表面要求不是很高的话，到 3 micrometers 就已经够用了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Surface-Treatment&quot;&gt;&lt;a href=&quot;#Surface-Treatment&quot; class=&quot;headerlink&quot; title=&quot;Surface Treatment&quot;&gt;&lt;/a&gt;Surface Treatment&lt;/h2&gt;&lt;p&gt;The surfac</summary>
+      
+    
+    
+    
+    <category term="CFRP composite" scheme="https://xiaosunstudy.com/categories/CFRP-composite/"/>
+    
+    
+    <category term="CFRP Composites" scheme="https://xiaosunstudy.com/tags/CFRP-Composites/"/>
+    
+    <category term="Surface treatment" scheme="https://xiaosunstudy.com/tags/Surface-treatment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ImageJ 纤维横截面识别坐标与半径</title>
+    <link href="https://xiaosunstudy.com/2022/02/26/ImageJ/ImageJ%20usage/"/>
+    <id>https://xiaosunstudy.com/2022/02/26/ImageJ/ImageJ%20usage/</id>
+    <published>2022-02-26T08:50:37.497Z</published>
+    <updated>2022-03-20T20:36:57.192Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="纤维横截面图像"><a href="#纤维横截面图像" class="headerlink" title="纤维横截面图像"></a>纤维横截面图像</h2><p>复合材料的纤维横截面图像可以从SEM 或者Optical microscope中观察到。这里我所获取的复合材料纤维横截面是由Optical microscope中得到的，如下图所示。</p><p><img src="https://s2.loli.net/2022/03/20/G3ncbiDCXsH4Oaj.png"></p><p>可以看到上面有黑色的颜色，这些代表着voids或者defects。这些defects可能是切割这个样品的时候导致的，也可能是由于研磨抛光的时候，没有完全按照步骤来所导致的。但是不影响我们从中获取有用的信息。</p><h2 id="ImageJ-纤维横截面识别以及信息提取"><a href="#ImageJ-纤维横截面识别以及信息提取" class="headerlink" title="ImageJ 纤维横截面识别以及信息提取"></a>ImageJ 纤维横截面识别以及信息提取</h2><p>首先把图像导入到 ImageJ 中，并转成8-bit格式( ImageJ -&gt; Image -&gt; Type -&gt; 8-bit)。这里我所使用的图像并没有含有scale信息，实际上在保存图像的时候，要把尺度burn到图像上。之后会找个有ruler的图像说明如何设置scale。</p><p><img src="https://s2.loli.net/2022/03/20/oNeQVAcWH4r1YTU.png"></p><p>然后使用Threshold 命令识别出图像的白色区域（纤维区域）(ImageJ -&gt; Image -&gt; Adjust -&gt; Threshold)。结果如下图所示：</p><p><img src="https://s2.loli.net/2022/03/20/qXASD5tjZ6EcIdh.png"></p><p><img src="https://s2.loli.net/2022/03/20/5vzFCBXpPu9OwRU.png"></p><p>随后使用复制命令（Image -&gt; duplicate），复制一个图像出来。使用Process-&gt; Binary -&gt; fill hole 命令填充孔洞。得到下图：</p><p><img src="https://s2.loli.net/2022/03/20/pEw1OntlouD9WIb.png"></p><p>但是可以看出来，fill hole操作不仅仅将纤维中间的小孔洞填充了，而且还填充了一些纤维之间的孔洞，这一填充部分不是我们想要的，所以要删去这一部分。我们可以实施图像相减操作，Process-&gt; Image calculator，通过hole-filled image减去原来的图像，得到filling area。</p><p><img src="https://s2.loli.net/2022/03/20/kvGZFIKz56Qnrpd.png"></p><p>那比较大的黑色区域就是我们应该删去的部分。使用wand tool 选中这些较大的区域，一一删除（选中后使用ctrl+shift+i，inverse这个区域的灰度值）。删去这些部分后，可以再使用Image Calculator将其与原来的图像相加。</p><p><img src="https://s2.loli.net/2022/03/20/udI59TyrfaoFJxg.png"></p><p><img src="https://s2.loli.net/2022/03/20/JWVOTCmwz4nia7d.png"></p><p>之后我们就可以使用分水岭操作（binary -&gt; watershed）得到下图：</p><p><img src="https://s2.loli.net/2022/03/20/iUNfw8vFRLa5t7p.png"></p><p>但是可以看到，有些地方我们不想让其分割，但是由于横截面的缺口导致其算法识别出现误差。我们可以使用Oval工具（如下图所示），创建圆形区域，点击delete，删除这个区域内的灰度值。</p><p><img src="https://s2.loli.net/2022/03/21/hr7MURWPfnJdaG1.png"></p><p>在Analyze-&gt; set measurement 中，勾选 Area， Centroid， 和Fit ellipse。在Analyze -&gt; Analyze Particles中修改参数如下图所示，这里勾选了exclude on edges，是因为ImageJ里面没有识别并补充图像边缘圆心和面积的功能。但是有些plugins里面有这项功能（忘记叫啥了，但是个人觉得不好用，而且在图像边缘的纤维横截面也不会影响到什么，所以就不用这个功能了）。</p><p><img src="https://s2.loli.net/2022/03/21/ynXVGqaBxd68cSD.png"></p><p>可以得到识别后的椭圆的Area，Centroid。之后就可以导入到excel表格，根据Area计算纤维的半径。对于fibre volume fraction，可以在之前使用threshold的时候使用Analyze -&gt; measure功能测出当时纤维区域面积，除以图像的面积即可。因为没有在图像中设置scale信息，所以这里得到的值是基于默认的参数下的面积以及圆心位置信息。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;纤维横截面图像&quot;&gt;&lt;a href=&quot;#纤维横截面图像&quot; class=&quot;headerlink&quot; title=&quot;纤维横截面图像&quot;&gt;&lt;/a&gt;纤维横截面图像&lt;/h2&gt;&lt;p&gt;复合材料的纤维横截面图像可以从SEM 或者Optical microscope中观察到。这里我所获取</summary>
+      
+    
+    
+    
+    <category term="ImageJ" scheme="https://xiaosunstudy.com/categories/ImageJ/"/>
+    
+    
+    <category term="ImageJ" scheme="https://xiaosunstudy.com/tags/ImageJ/"/>
+    
+    <category term="Carbon Fiber Reinforced Plastics" scheme="https://xiaosunstudy.com/tags/Carbon-Fiber-Reinforced-Plastics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Digital Image Correlation 学习 （一）</title>
+    <link href="https://xiaosunstudy.com/2022/02/13/DIC_learning/DIC_learning_1/"/>
+    <id>https://xiaosunstudy.com/2022/02/13/DIC_learning/DIC_learning_1/</id>
+    <published>2022-02-13T19:54:57.720Z</published>
+    <updated>2022-05-01T13:05:13.141Z</updated>
+    
+    <content type="html"><![CDATA[<p>该总结来自于 Michael A. Sutton 等人的著作 ‘Image Correlation for Shape, Motion and Deformation Measurements Basic Concepts, Theory and Applications’。删去了一些个人认为不太重要的内容，仅为个人使用。</p><h2 id="Chapter-1-Introduction"><a href="#Chapter-1-Introduction" class="headerlink" title="Chapter 1 Introduction"></a>Chapter 1 Introduction</h2><p>数字图像相关，DIC，意指使用非接触方式类来得到物体的图像，并保存为数字格式，从而从图像分析过程中提取全域形态，变形，或者运动测量。数字图像配准可以基于线，网格，点，或者随机阵列的模式下实施。</p><h3 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h3><p>在早期的1950年代，Gilbert Hobrough 实现了第一次通过对比图像来得到物体的特征。1961年，Hobrough 就设计出来了早期的 DIC 设备。之后一些算法被很多研究者设计出来。</p><p>1982-1999 年期间，实现并发展了二维DIC 测量方法。Peters和Ranson(1982)通过对比加载前和加载过程中对物体施加超声波的结果来研究全场模式。1983年，Sutton等人开发了数值算法，并使用光学记录的图像进行了初步实验来证明这种方法，也就是现在所知道的 2D-DIC。Anderson等人通过此算法实现了记录刚体运动，从而证明DIC 在平动和转动上的可靠性。1985年，Chu 等人通过一系列的实验验证了2D-DIC在固体上量化转动和形变。为了提高计算效率，1986年，Sutton等人通过梯度搜索方法来加速分析过程并提高精度（达到亚像素级别的精度）。Tian和Huhns随后通过各种搜索方法验证了亚像素级别的精度和梯度法的准确度。1989年，Russell等人实现了基于X-ray radiography来量化复合材料板内部的形变过程。只不过此时，还是局限在二维上。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;该总结来自于 Michael A. Sutton 等人的著作 ‘Image Correlation for Shape, Motion and Deformation Measurements Basic Concepts, Theory and Applications’</summary>
+      
+    
+    
+    
+    <category term="Digital Image Correlation" scheme="https://xiaosunstudy.com/categories/Digital-Image-Correlation/"/>
+    
+    
+    <category term="DIC" scheme="https://xiaosunstudy.com/tags/DIC/"/>
+    
+    <category term="Image Processing" scheme="https://xiaosunstudy.com/tags/Image-Processing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Canny 介绍</title>
+    <link href="https://xiaosunstudy.com/2022/01/25/Image_processing/Canny/"/>
+    <id>https://xiaosunstudy.com/2022/01/25/Image_processing/Canny/</id>
+    <published>2022-01-25T21:37:39.373Z</published>
+    <updated>2022-01-25T21:49:36.561Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Canny-介绍"><a href="#Canny-介绍" class="headerlink" title="Canny 介绍"></a>Canny 介绍</h2><p>Canny算子与Marr（LoG）边缘检测方法类似，也属于是先平滑后求导数的方法。John Canny研究了最优边缘检测方法所需的特性，给出了评价边缘检测性能优劣的三个指标：</p><ul><li>1  好的信噪比，即将非边缘点判定为边缘点的概率要低，将边缘点判为非边缘点的概率要低；</li><li>2  高的定位性能，即检测出的边缘点要尽可能在实际边缘的中心；</li><li>3  对单一边缘仅有唯一响应，即单个边缘产生多个响应的概率要低，并且虚假响应边缘应该得到最大抑制。</li></ul><h2 id="Canny检测实现过程"><a href="#Canny检测实现过程" class="headerlink" title="Canny检测实现过程"></a>Canny检测实现过程</h2><p>第一步：灰度化</p><p>第二步：高斯滤波</p><ul><li>首先生成二维高斯分布矩阵：</li></ul><p>$$<br>G(x, y)&#x3D;\frac{1}{2 \pi \sigma^{2}} e^{\frac{-\left(x^{2}+y^{2}\right)}{2 \sigma^{2}}}<br>$$</p><ul><li>然后与灰度图像进行卷积实现滤波：</li></ul><p>$$<br>f_{s}(x, y)&#x3D;f(x, y) * G(x, y)<br>$$</p><p>第三步：计算梯度值和方向</p><p>求变化率时，对于一元函数，即求导；对于二元函数，求偏导。数字图像处理中，用一阶有限差分近似求取灰度值的梯度值（变化率）。 (即：使差商(Δf&#x2F;Δx)近似取代微商(∂f&#x2F;∂x)。求灰度的变化率，分别取x和y方向上相邻像素做差，代替求取x和y 方向一阶偏导) 。<br>$$<br>\begin{aligned}<br>&amp;P[i, j]&#x3D;(f[i+1, j]-f[i, j]+f[i+1, j+1]-f[i, j+1]) &#x2F; 2 \<br>&amp;Q[i, j]&#x3D;(f[i, j]-f[i, j+1]+f[i+1, j]-f[i+1, j+1]) &#x2F; 2 \<br>&amp;M[i, j]&#x3D;\sqrt{P[i, j]^{2}+Q[i, j]^{2}} \<br>&amp;\theta[i, j]&#x3D;\arctan (Q[i, j] &#x2F; p[i, j])<br>\end{aligned}<br>$$<br>其中f为图像灰度值，P代表X方向梯度幅值，Q代表Y方向 梯度幅值，<strong>M是该点幅值</strong>，<strong>Θ是梯度方向</strong>，也就是角度。</p><p>注：图像梯度方向与边缘方向互相垂直：</p><p>第四步：非极大值抑制（NMS）</p><p>通俗意义上是指寻找像素点局部最大值。沿着梯度方向，比较它前面和后面的梯度值。在沿其方向上邻域的梯度幅值最大，则保留；否则，抑制。</p><p>第五步：双阈值的选取，边缘连接</p><ul><li>选取高阈值 T H 和低阈值 T L, 比率为2：1或3：1. （一般取 TH &#x3D; 0.3 或 0.2， TL &#x3D; 0.1）</li><li>取出非极大值抑制后的图像中的最大梯度幅值，重新定义高低阈值。即 TH * Max， TL * Max。</li><li>将小于TL的点抛弃，赋0；将大于TH的点立即标记（这些点就是边缘点），赋1。</li><li>将大于TL， 小于TH的点使用8连通区域确定（即：只有与TH像素连接时才会被接受，成为边缘点，赋1）.</li></ul><h2 id="Canny检测Python实现"><a href="#Canny检测Python实现" class="headerlink" title="Canny检测Python实现"></a>Canny检测Python实现</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">Created on Thu Dec  7 21:12:41 2017</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@author: L.P.S</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line"></span><br><span class="line">img = plt.imread(<span class="string">&#x27;G:\\360downloads\\lps.png&#x27;</span>)</span><br><span class="line"></span><br><span class="line">sigma1 = sigma2 = <span class="number">1</span></span><br><span class="line"><span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">gaussian = np.zeros([<span class="number">5</span>, <span class="number">5</span>])</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">        gaussian[i,j] = math.exp(-<span class="number">1</span>/<span class="number">2</span> * (np.square(i-<span class="number">3</span>)/np.square(sigma1)           <span class="comment">#生成二维高斯分布矩阵</span></span><br><span class="line">                        + (np.square(j-<span class="number">3</span>)/np.square(sigma2)))) / (<span class="number">2</span>*math.pi*sigma1*sigma2)</span><br><span class="line">        <span class="built_in">sum</span> = <span class="built_in">sum</span> + gaussian[i, j]</span><br><span class="line">        </span><br><span class="line">gaussian = gaussian/<span class="built_in">sum</span></span><br><span class="line"><span class="comment"># print(gaussian)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">rgb2gray</span>(<span class="params">rgb</span>):</span><br><span class="line">    <span class="keyword">return</span> np.dot(rgb[...,:<span class="number">3</span>], [<span class="number">0.299</span>, <span class="number">0.587</span>, <span class="number">0.114</span>])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># step1.高斯滤波</span></span><br><span class="line">gray = rgb2gray(img)</span><br><span class="line">W, H = gray.shape</span><br><span class="line">new_gray = np.zeros([W-<span class="number">5</span>, H-<span class="number">5</span>])</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(W-<span class="number">5</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(H-<span class="number">5</span>):</span><br><span class="line">        new_gray[i,j] = np.<span class="built_in">sum</span>(gray[i:i+<span class="number">5</span>,j:j+<span class="number">5</span>]*gaussian)   <span class="comment"># 与高斯矩阵卷积实现滤波 </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># plt.imshow(new_gray, cmap=&quot;gray&quot;)</span></span><br><span class="line">     </span><br><span class="line">        </span><br><span class="line"><span class="comment"># step2.增强 通过求梯度幅值</span></span><br><span class="line">W1, H1 = new_gray.shape</span><br><span class="line">dx = np.zeros([W1-<span class="number">1</span>, H1-<span class="number">1</span>])</span><br><span class="line">dy = np.zeros([W1-<span class="number">1</span>, H1-<span class="number">1</span>])</span><br><span class="line">d = np.zeros([W1-<span class="number">1</span>, H1-<span class="number">1</span>])</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(W1-<span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(H1-<span class="number">1</span>):   </span><br><span class="line">        dx[i,j] = new_gray[i, j+<span class="number">1</span>] - new_gray[i, j]</span><br><span class="line">        dy[i,j] = new_gray[i+<span class="number">1</span>, j] - new_gray[i, j]        </span><br><span class="line">        d[i, j] = np.sqrt(np.square(dx[i,j]) + np.square(dy[i,j]))   <span class="comment"># 图像梯度幅值作为图像强度值</span></span><br><span class="line">         </span><br><span class="line"><span class="comment"># plt.imshow(d, cmap=&quot;gray&quot;)</span></span><br><span class="line">      </span><br><span class="line">        </span><br><span class="line"><span class="comment"># setp3.非极大值抑制 NMS</span></span><br><span class="line">W2, H2 = d.shape</span><br><span class="line">NMS = np.copy(d)</span><br><span class="line">NMS[<span class="number">0</span>,:] = NMS[W2-<span class="number">1</span>,:] = NMS[:,<span class="number">0</span>] = NMS[:, H2-<span class="number">1</span>] = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, W2-<span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, H2-<span class="number">1</span>):</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> d[i, j] == <span class="number">0</span>:</span><br><span class="line">            NMS[i, j] = <span class="number">0</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            gradX = dx[i, j]</span><br><span class="line">            gradY = dy[i, j]</span><br><span class="line">            gradTemp = d[i, j]</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 如果Y方向幅度值较大</span></span><br><span class="line">            <span class="keyword">if</span> np.<span class="built_in">abs</span>(gradY) &gt; np.<span class="built_in">abs</span>(gradX):</span><br><span class="line">                weight = np.<span class="built_in">abs</span>(gradX) / np.<span class="built_in">abs</span>(gradY)</span><br><span class="line">                grad2 = d[i-<span class="number">1</span>, j]</span><br><span class="line">                grad4 = d[i+<span class="number">1</span>, j]</span><br><span class="line">                <span class="comment"># 如果x,y方向梯度符号相同</span></span><br><span class="line">                <span class="keyword">if</span> gradX * gradY &gt; <span class="number">0</span>:</span><br><span class="line">                    grad1 = d[i-<span class="number">1</span>, j-<span class="number">1</span>]</span><br><span class="line">                    grad3 = d[i+<span class="number">1</span>, j+<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 如果x,y方向梯度符号相反</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    grad1 = d[i-<span class="number">1</span>, j+<span class="number">1</span>]</span><br><span class="line">                    grad3 = d[i+<span class="number">1</span>, j-<span class="number">1</span>]</span><br><span class="line">                    </span><br><span class="line">            <span class="comment"># 如果X方向幅度值较大</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                weight = np.<span class="built_in">abs</span>(gradY) / np.<span class="built_in">abs</span>(gradX)</span><br><span class="line">                grad2 = d[i, j-<span class="number">1</span>]</span><br><span class="line">                grad4 = d[i, j+<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 如果x,y方向梯度符号相同</span></span><br><span class="line">                <span class="keyword">if</span> gradX * gradY &gt; <span class="number">0</span>:</span><br><span class="line">                    grad1 = d[i+<span class="number">1</span>, j-<span class="number">1</span>]</span><br><span class="line">                    grad3 = d[i-<span class="number">1</span>, j+<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 如果x,y方向梯度符号相反</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    grad1 = d[i-<span class="number">1</span>, j-<span class="number">1</span>]</span><br><span class="line">                    grad3 = d[i+<span class="number">1</span>, j+<span class="number">1</span>]</span><br><span class="line">        </span><br><span class="line">            gradTemp1 = weight * grad1 + (<span class="number">1</span>-weight) * grad2</span><br><span class="line">            gradTemp2 = weight * grad3 + (<span class="number">1</span>-weight) * grad4</span><br><span class="line">            <span class="keyword">if</span> gradTemp &gt;= gradTemp1 <span class="keyword">and</span> gradTemp &gt;= gradTemp2:</span><br><span class="line">                NMS[i, j] = gradTemp</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                NMS[i, j] = <span class="number">0</span></span><br><span class="line">        </span><br><span class="line"><span class="comment"># plt.imshow(NMS, cmap = &quot;gray&quot;)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># step4. 双阈值算法检测、连接边缘</span></span><br><span class="line">W3, H3 = NMS.shape</span><br><span class="line">DT = np.zeros([W3, H3])               </span><br><span class="line"><span class="comment"># 定义高低阈值</span></span><br><span class="line">TL = <span class="number">0.2</span> * np.<span class="built_in">max</span>(NMS)</span><br><span class="line">TH = <span class="number">0.3</span> * np.<span class="built_in">max</span>(NMS)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, W3-<span class="number">1</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, H3-<span class="number">1</span>):</span><br><span class="line">        <span class="keyword">if</span> (NMS[i, j] &lt; TL):</span><br><span class="line">            DT[i, j] = <span class="number">0</span></span><br><span class="line">        <span class="keyword">elif</span> (NMS[i, j] &gt; TH):</span><br><span class="line">            DT[i, j] = <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> ((NMS[i-<span class="number">1</span>, j-<span class="number">1</span>:j+<span class="number">1</span>] &lt; TH).<span class="built_in">any</span>() <span class="keyword">or</span> (NMS[i+<span class="number">1</span>, j-<span class="number">1</span>:j+<span class="number">1</span>]).<span class="built_in">any</span>() </span><br><span class="line">              <span class="keyword">or</span> (NMS[i, [j-<span class="number">1</span>, j+<span class="number">1</span>]] &lt; TH).<span class="built_in">any</span>()):</span><br><span class="line">            DT[i, j] = <span class="number">1</span></span><br><span class="line">        </span><br><span class="line">plt.imshow(DT, cmap = <span class="string">&quot;gray&quot;</span>)            </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Canny-介绍&quot;&gt;&lt;a href=&quot;#Canny-介绍&quot; class=&quot;headerlink&quot; title=&quot;Canny 介绍&quot;&gt;&lt;/a&gt;Canny 介绍&lt;/h2&gt;&lt;p&gt;Canny算子与Marr（LoG）边缘检测方法类似，也属于是先平滑后求导数的方法。John </summary>
+      
+    
+    
+    
+    <category term="Image Processing" scheme="https://xiaosunstudy.com/categories/Image-Processing/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="Image Processing" scheme="https://xiaosunstudy.com/tags/Image-Processing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结 番外篇 （三）Inp2VTK based on C3D8R</title>
+    <link href="https://xiaosunstudy.com/2022/01/24/VTK/Inp2VTK/"/>
+    <id>https://xiaosunstudy.com/2022/01/24/VTK/Inp2VTK/</id>
+    <published>2022-01-24T21:15:50.469Z</published>
+    <updated>2022-01-24T21:48:18.061Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="INP和VTK-文件"><a href="#INP和VTK-文件" class="headerlink" title="INP和VTK 文件"></a>INP和VTK 文件</h2><p>其实当我们了解了一些基本的VTK 文件格式，例如如何编写含有<code>unstructured grid</code>信息的<code>.vtk</code>文件，之后，我们就可以自己根据构思来去设计一些体素模型。然而，对于复杂模型来说，或者含有大量几何信息的模型来说，凭脑子来一点点的设计和堆积一个个<code>CELL</code>到我们的文件数据集中，肯定是不可能的。毕竟人脑能够构思框架和使用，但是机脑才是那个负责重复劳动的东西。</p><p>对于熟悉ABAQUS有限元的人来说，<code>INP</code>文件是最常接触的文件，它里面涵盖了有限元分析所需求的各种模型信息以及边界条件。ABAQUS的后处理功能虽然能够提供我们必要的一些信息，但是如果我们想了解有限元分析结果的数据结构，判断其结果准确性等等，我们就需要一些更强大的图形展示窗口，比如PARAVIEW。而且，我们还能更方便的基于从ABAQUS 中获得的结果文件，做进一步的分析，比如，Multiscale modelling 多尺度分析。但是在这里就不深入讲解了。</p><p>综上，INP文件转化为VTK文件，然后显示到PARAVIEW，或者我们自己编写的基于VTK 的图形窗口中，就显得很必要了。</p><h3 id="INP-文件格式"><a href="#INP-文件格式" class="headerlink" title="INP 文件格式"></a>INP 文件格式</h3><p>VTK 文件格式在之前的文章中已经介绍了，但是还没有介绍过INP文件格式，所以在这里简单说一下吧。</p><h2 id="INP2VTK"><a href="#INP2VTK" class="headerlink" title="INP2VTK"></a>INP2VTK</h2><p>当前我只测试了C3D8R的文件格式。因为它所含有的网格节点排列顺序和 构建VTK中的<code>UNSTRUCTURED GRID</code>的顺序是一样的。在VTK 文件中的<code>CELL TYPE</code>是选择了 12 （VTK_HEXAHEDRON）。因为它能够体现不同的网格形态（更能适应不同的ASPECT RATIO）。</p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>首先我们需要分别读取 INP 和写入 VTK 文件，所以这里定义了两个 <code>FUNCTION</code></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">read_inp</span>(<span class="params">self, inp_path, result_path</span>):</span><br><span class="line">    lnum_node = <span class="number">0</span>  <span class="comment"># Node number start</span></span><br><span class="line">    lnum_element = <span class="number">0</span>  <span class="comment"># Node number end</span></span><br><span class="line">    lnum_element_end = <span class="number">0</span>  <span class="comment"># Element number end</span></span><br><span class="line">    node_dic = &#123;&#125;  <span class="comment"># Node dictionary: node number and coordinate</span></span><br><span class="line">    ele_dic = &#123;&#125;  <span class="comment"># Node dictionary: node number and coordinate</span></span><br><span class="line"></span><br><span class="line">    inp_file = <span class="built_in">open</span>(inp_path)</span><br><span class="line">    inp_lines = inp_file.readlines()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> result_path:</span><br><span class="line">        result_file = <span class="built_in">open</span>(result_path)</span><br><span class="line">        result_lines = result_file.readlines()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Node information</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(inp_lines)):</span><br><span class="line">        <span class="keyword">if</span> inp_lines[i] == <span class="string">&#x27;*Node\n&#x27;</span>:</span><br><span class="line">            lnum_node = i + <span class="number">1</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;Current line number of *Node: &#x27;</span>, lnum_node)</span><br><span class="line">        <span class="keyword">if</span> inp_lines[i] == <span class="string">&#x27;*Element, type=C3D8R\n&#x27;</span>:</span><br><span class="line">            lnum_element = i + <span class="number">1</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;Current line number of *Element: &#x27;</span>, lnum_element)</span><br><span class="line">        <span class="keyword">if</span> inp_lines[i] == <span class="string">&#x27;*End Part\n&#x27;</span>:</span><br><span class="line">            lnum_element_end = i + <span class="number">1</span></span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;Current line number of *End Part: &#x27;</span>, lnum_element_end)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Element information</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(lnum_node, lnum_element-<span class="number">1</span>):</span><br><span class="line">        current_line = inp_lines[i]</span><br><span class="line">        current_line = current_line.replace(<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;\n&#x27;</span>, <span class="string">&#x27;&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br><span class="line">        current_coord = []</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(current_line)):</span><br><span class="line">            current_coord.append(<span class="built_in">float</span>(current_line[j]))</span><br><span class="line">        node_dic[current_line[<span class="number">0</span>]] = current_coord[<span class="number">1</span>:]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(lnum_element, lnum_element_end-<span class="number">1</span>):</span><br><span class="line">        current_line = inp_lines[i]</span><br><span class="line">        current_line = current_line.replace(<span class="string">&#x27; &#x27;</span>, <span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;\n&#x27;</span>, <span class="string">&#x27;&#x27;</span>).split(<span class="string">&#x27;,&#x27;</span>)</span><br><span class="line">        current_node_group = []</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(current_line)):</span><br><span class="line">            current_node_group.append(<span class="built_in">int</span>(current_line[j]))</span><br><span class="line">        ele_dic[i - lnum_element + <span class="number">1</span>] = current_node_group[<span class="number">1</span>:]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> node_dic, ele_dic</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">save_vtk</span>(<span class="params">self, vtk_path, node_dic, element_dic</span>):</span><br><span class="line">    vtk_file = <span class="built_in">open</span>(vtk_path, <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;# vtk DataFile Version 2.0\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;Unstructured Grid - &#x27;</span> + vtk_path.strip(<span class="string">&#x27;.vtk&#x27;</span>) + <span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;ASCII\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;DATASET UNSTRUCTURED_GRID\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;POINTS &#x27;</span> + <span class="built_in">str</span>(<span class="built_in">len</span>(node_dic)) + <span class="string">&#x27; float\n&#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(node_dic)):</span><br><span class="line">    current_value = node_dic[<span class="built_in">str</span>(i + <span class="number">1</span>)]</span><br><span class="line">    <span class="comment"># print(current_value)</span></span><br><span class="line">    <span class="comment"># print(type(current_value))</span></span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(current_value)):</span><br><span class="line">    vtk_file.write(<span class="built_in">str</span>(current_value[j])+<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> j == <span class="built_in">len</span>(current_value) - <span class="number">1</span>:</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    vtk_file.write(<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;CELLS &#x27;</span> + <span class="built_in">str</span>(<span class="built_in">len</span>(element_dic)) + <span class="string">&#x27; &#x27;</span> + <span class="built_in">str</span>(<span class="number">9</span>*<span class="built_in">len</span>(element_dic)) + <span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(element_dic)):</span><br><span class="line">    current_value = element_dic[i + <span class="number">1</span>]</span><br><span class="line">    <span class="built_in">print</span>(current_value)</span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">type</span>(current_value))</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;8 &#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(current_value)):</span><br><span class="line">    vtk_file.write(<span class="built_in">str</span>(current_value[j]-<span class="number">1</span>)+<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> j == <span class="built_in">len</span>(current_value) - <span class="number">1</span>:</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    vtk_file.write(<span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;CELL_TYPES &#x27;</span> + <span class="built_in">str</span>(<span class="built_in">len</span>(element_dic)) + <span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(element_dic)):</span><br><span class="line">    vtk_file.write(<span class="string">&#x27;12&#x27;</span> + <span class="string">&#x27;\n&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;INP和VTK-文件&quot;&gt;&lt;a href=&quot;#INP和VTK-文件&quot; class=&quot;headerlink&quot; title=&quot;INP和VTK 文件&quot;&gt;&lt;/a&gt;INP和VTK 文件&lt;/h2&gt;&lt;p&gt;其实当我们了解了一些基本的VTK 文件格式，例如如何编写含有&lt;code&gt;un</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+    <category term="Abaqus" scheme="https://xiaosunstudy.com/tags/Abaqus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结 番外篇 （二）VTK 视图化过程</title>
+    <link href="https://xiaosunstudy.com/2022/01/24/VTK/VTK_visualizationpipeline/"/>
+    <id>https://xiaosunstudy.com/2022/01/24/VTK/VTK_visualizationpipeline/</id>
+    <published>2022-01-24T08:16:54.087Z</published>
+    <updated>2022-01-24T09:17:49.341Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Visualization-pipeline"><a href="#Visualization-pipeline" class="headerlink" title="Visualization pipeline"></a>Visualization pipeline</h2><p>这篇文章的大部分内容来自于：<a href="http://www.cb.uu.se/~aht/Vis2014/lecture2.pdf">http://www.cb.uu.se/~aht/Vis2014/lecture2.pdf</a> 。作者是Johan Nysjö。</p><p>VTK视图化的过程可以体现在Figure 1.</p><p><img src="https://s2.loli.net/2022/01/24/9bn5LzU1iCfslJP.png" alt="Figure 1 - Visualization pipeline"></p><p>其中source 是来源于 VTK 内部的模型，包含了一些简单的正方体，棱柱，圆等等。Reader主要是用来读取外部文件的模型信息。</p><p>Filter 的主要作用是传递和修改输入的信息。它可以被用来：</p><ul><li>Select data of a particular size, strength, intensity, etc.</li><li>Process 2D&#x2F;3D images or polygon meshes&#x2F;</li><li>Generate geometric objects from data.</li></ul><p>Mapper 是用来将数据投影到图形基元（点线面）以至于这些数据可以被renderer呈现出来。更多情况下，我们使用的是<code>vtkPolyDataMapper</code>。</p><p>Actors 代表了在渲染场景中的一个物体，包含了它的几何形状和物理属性。它包含了位置，大小，方向等信息。</p><p>Rendering：将 3D 图形基元（点、线、三角形等）、灯光和材质规范以及相机视图转换为可在屏幕上显示的 2D 图像的过程。其中<code>vtkRenderer</code>控制了<code>rendering process</code>。</p><p>Render Window 通过<code>vtkRenderWindow</code>给<code>renderer</code>创建窗口展示图形。</p><p>Interactor 表示如何通过鼠标和键盘控制模型窗口，主要是控制投影方向来控制模型的展示方向。<code>vtkRenderWindowInteractor</code>类提供了通过鼠标和键盘的不依赖平台的窗口交互行为。</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Visualization-pipeline&quot;&gt;&lt;a href=&quot;#Visualization-pipeline&quot; class=&quot;headerlink&quot; title=&quot;Visualization pipeline&quot;&gt;&lt;/a&gt;Visualization pipeli</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结（三）显示unstructured grid 的网格线</title>
+    <link href="https://xiaosunstudy.com/2022/01/23/VTK/VTK_conclusion_3/"/>
+    <id>https://xiaosunstudy.com/2022/01/23/VTK/VTK_conclusion_3/</id>
+    <published>2022-01-23T20:37:11.901Z</published>
+    <updated>2022-01-24T08:37:26.596Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="非结构化Grid-的网格线"><a href="#非结构化Grid-的网格线" class="headerlink" title="非结构化Grid 的网格线"></a>非结构化Grid 的网格线</h2><p>之前我们说过如何查看两个多面体内部的<code>Feature Lines</code> 和外部的 <code>Outline</code>。然而那种方法只适用于<code>Polygonal data</code>，对于<code>Unstructure Grid</code> 并不适用。所以如果我们想要将<code>Unstructured Grid</code>显示出来，那么就需要<code>vtkGeometryFilter</code>这个功能。详情请看下图：</p><p><img src="https://s2.loli.net/2022/01/24/P5DT3n9WdxuKrmw.png" alt="Figure 1 - Mesh visualization pipeline [1]"></p><p>Putanowicz and Magoules simplified the visualization process of unstructured grids with VTK [1]. The figure shown above clearly displayed how the outline grid can be presented by the VTK reader. 总体的实现过程可查看如下代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">file_open</span>(<span class="params">self, path</span>):</span><br><span class="line">    vtkReader = vtk.vtkUnstructuredGridReader()</span><br><span class="line">    vtkReader.SetFileName(path)</span><br><span class="line">    vtkReader.ReadAllVectorsOn()</span><br><span class="line">    vtkReader.ReadAllScalarsOn()</span><br><span class="line">    vtkReader.Update()</span><br><span class="line"></span><br><span class="line">    vtkMapper = vtk.vtkDataSetMapper()</span><br><span class="line">    vtkMapper.SetInputConnection(vtkReader.GetOutputPort())</span><br><span class="line">    actor = vtk.vtkActor()</span><br><span class="line">    actor.SetMapper(vtkMapper)</span><br><span class="line">    actor.GetProperty().SetOpacity(<span class="number">0.9</span>)</span><br><span class="line">    <span class="comment"># actor.VisibilityOff()</span></span><br><span class="line">    self.renderer.AddActor(actor)</span><br><span class="line">    self.renderer.ResetCamera()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create mesh outline via converting unstructured grid to polydata</span></span><br><span class="line">    <span class="comment"># vtkGeometryFilter and vtkExtractEdges used at here</span></span><br><span class="line">    geometry = vtk.vtkGeometryFilter()</span><br><span class="line">    geometry.SetInputConnection(vtkReader.GetOutputPort())</span><br><span class="line">    poly_mapper = vtk.vtkPolyDataMapper()</span><br><span class="line">    extract = vtk.vtkExtractEdges()</span><br><span class="line">    extract.SetInputConnection(geometry.GetOutputPort())</span><br><span class="line">    poly_mapper.SetInputConnection(extract.GetOutputPort())</span><br><span class="line">    poly_actor = vtk.vtkActor()</span><br><span class="line">    poly_actor.SetMapper(poly_mapper)</span><br><span class="line">    <span class="comment"># poly_actor.VisibilityOff()</span></span><br><span class="line">    self.renderer.AddActor(poly_actor)</span><br><span class="line">    self.renderer.ResetCamera()</span><br></pre></td></tr></table></figure><p>根据以上代码，我们就可以将grid outline 显示出来了。</p><p><img src="https://s2.loli.net/2022/01/24/DYZ2G3QUuOW4Hcx.png" alt="Figure 2 - Plate with meshed grid shown in the Python designed VTK interface"></p><p><img src="https://s2.loli.net/2022/01/24/hwKGqLflE3djgoa.png" alt="Figure 3 - Plate with meshed grid shown in the Paraview"></p><hr><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] Putanowicz, R. and Magoules, F., 2003. Simple visualizations of unstructured grids with VTK.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;非结构化Grid-的网格线&quot;&gt;&lt;a href=&quot;#非结构化Grid-的网格线&quot; class=&quot;headerlink&quot; title=&quot;非结构化Grid 的网格线&quot;&gt;&lt;/a&gt;非结构化Grid 的网格线&lt;/h2&gt;&lt;p&gt;之前我们说过如何查看两个多面体内部的&lt;code&gt;Fe</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结 番外篇 （一）VTK文件格式以及数据集</title>
+    <link href="https://xiaosunstudy.com/2022/01/23/VTK/VTK_dataset/"/>
+    <id>https://xiaosunstudy.com/2022/01/23/VTK/VTK_dataset/</id>
+    <published>2022-01-23T09:08:21.300Z</published>
+    <updated>2022-01-23T16:27:41.993Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文件格式"><a href="#文件格式" class="headerlink" title="文件格式"></a>文件格式</h2><h3 id="文件内容简介"><a href="#文件内容简介" class="headerlink" title="文件内容简介"></a>文件内容简介</h3><p>第一行是数据版本声明，说明文件版本。</p><p>第二行是自己定义的一个标题，最多256个字符，以回车符<code>\n</code>结束。</p><p>第三行是文件格式生命，由两个选择，<code>ACSII</code>或者二进制<code>BINARY</code>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># vtk DataFile Version 1.0</span><br><span class="line">Model_1</span><br><span class="line">ASCII</span><br></pre></td></tr></table></figure><p>之后就是最重要的数据集了。是以<code>DATASET type</code> 格式来体现的。其中<code>type</code> 可以是</p><ul><li>STRUCTURED_POINTS</li><li>STRUCTURED_GRID</li><li>UNSTRUCTURED_GRID</li><li>POLYDATA</li><li>RECTILINEAR_GRID</li><li>FIELD</li></ul><p>如果使用<code>UNSTRCTURED_GRID</code>:</p><p><em>‘The unstructured grid dataset consists of arbitrary combinations of any possible cell type. Unstructured grids are defined by points, cells, and cell types. The CELLS keyword requires two parameters: the number of cells n and the size of the cell list size. The cell list size is the total number of integer values required to represent the list (i.e., sum of numPoints and connectivity indices over each cell). The CELL_TYPES keyword requires a single parameter: the number of cells n. This value should match the value specified by the CELLS keyword. The cell types data is a single</em><br><em>integer value per cell that specified cell type.’</em></p><p>非结构化网格数据集由任何可能的单元格类型的任意组合组成。非结构化网格由点、单元格和单元格类型定义。CELLS关键字需要两个参数:cell的数量n和cell列表的大小。单元格列表的大小是表示列表所需的整数值的总数(例如，每个单元格上numPoints和连接性指数的总和)。CELL TYPES关键字需要一个参数:CELL的数量n。这个值应该与CELLS关键字指定的值匹配。单元格类型数据是每个指定单元格类型的单个整数值。</p><p>其中<code>.vtk</code>文件中最重要的就是物理量，包含了节点上的值和单元上的值，分别用<code>POINT_DATA</code>和<code>CELL_DATA</code>表示。可以表示多个物理量。这些物理量可以是标量（scalar），向量（vector），或者是张量（tensor）。例如，节点上的颜色，可以用标量来表示。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">POINT_DATA n</span><br><span class="line">数据</span><br><span class="line"></span><br><span class="line">CELL_DATA n</span><br><span class="line">数据</span><br></pre></td></tr></table></figure><p>例如 SCALAR 或者 VECTORS 数据的话，可以表示为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">POINT_DATA 27</span><br><span class="line">SCALARS scalars float 1</span><br><span class="line">LOOKUP_TABLE default</span><br><span class="line">0.0 1.0 2.0 3.0 4.0 5.0</span><br><span class="line">6.0 7.0 8.0 9.0 10.0 11.0</span><br><span class="line">12.0 13.0 14.0 15.0 16.0 17.0</span><br><span class="line">18.0 19.0 20.0 21.0 22.0 23.0</span><br><span class="line">24.0 25.0 26.0</span><br><span class="line">VECTORS vectors float</span><br><span class="line">1 0 0 1 1 0 0 2 0 1 0 0 1 1 0 0 2 0</span><br><span class="line">1 0 0 1 1 0 0 2 0 1 0 0 1 1 0 0 2 0</span><br><span class="line">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</span><br><span class="line">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</span><br><span class="line">0 0 1 0 0 1 0 0 1</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p>格式为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SCALARS dataName dataType numComp </span><br><span class="line">LOOKUP_TABLE tableName</span><br></pre></td></tr></table></figure><p>其中 <code>dataName</code> 数据名字，<code>dataType</code> 是<code>double, float</code>之类的，<code>numComp</code>一般是1。<code>tableName</code>是表名。</p><h3 id="节点顺序"><a href="#节点顺序" class="headerlink" title="节点顺序"></a>节点顺序</h3><p>节点顺序和使用的类型决定了模型是否存在畸变。下面两个图表明了线性和非线性的<code>CELLS</code>表达。可以观察到组成<code>CELLS</code>的节点顺序根据不同的type，排列顺序也是不一样的。比如VTK_VOXEL 和VTK_HEXAHEDRON，按照逆时针表达的话，一个是01324576，另一个是01234567。</p><p><img src="https://s2.loli.net/2022/01/23/UZSqC9birl4Lwht.png" alt="Linear cell types found in VTK"></p><p><img src="https://s2.loli.net/2022/01/23/cHvlNB2Dd7qC4pM.png" alt="Nonlinear cell types found in VTK"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;文件格式&quot;&gt;&lt;a href=&quot;#文件格式&quot; class=&quot;headerlink&quot; title=&quot;文件格式&quot;&gt;&lt;/a&gt;文件格式&lt;/h2&gt;&lt;h3 id=&quot;文件内容简介&quot;&gt;&lt;a href=&quot;#文件内容简介&quot; class=&quot;headerlink&quot; title=&quot;文件内容简</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结（二）多边形 Outline 和 Feature Line 创建</title>
+    <link href="https://xiaosunstudy.com/2022/01/22/VTK/VTK_conclusion_2/"/>
+    <id>https://xiaosunstudy.com/2022/01/22/VTK/VTK_conclusion_2/</id>
+    <published>2022-01-22T19:35:11.888Z</published>
+    <updated>2022-01-24T08:37:45.873Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="多边形Outline和-Feature-Line-创建"><a href="#多边形Outline和-Feature-Line-创建" class="headerlink" title="多边形Outline和 Feature Line 创建"></a>多边形Outline和 Feature Line 创建</h3><p>根据上一文章中，我们成功创建了一个正方形在创建的VTK视图中。但是在未来的计划中，我们还要想体现更为复杂的模型。而模型是由不同的点，线，面组成的。相比较ABAQUS中的Mesh来说，这些点线面（Feature）其实就是node, face element, body element。</p><p>那么如何在VTK的视图中展示这些特征呢？下面我们以一个简单的例子来说明：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"># vtk DataFile Version 1.0</span><br><span class="line">Vibrational modes of plate</span><br><span class="line">ASCII</span><br><span class="line"></span><br><span class="line">DATASET POLYDATA</span><br><span class="line">POINTS 12 float</span><br><span class="line">0.0 0.0 0.0</span><br><span class="line">1.0 0.0 0.0</span><br><span class="line">1.0 1.0 0.0</span><br><span class="line">0.0 1.0 0.0</span><br><span class="line">0.0 0.0 1.0</span><br><span class="line">1.0 0.0 1.0</span><br><span class="line">1.0 1.0 1.0</span><br><span class="line">0.0 1.0 1.0</span><br><span class="line">2.0 0.0 0.0</span><br><span class="line">2.0 1.0 0.0</span><br><span class="line">2.0 1.0 1.0</span><br><span class="line">2.0 0.0 1.0</span><br><span class="line"></span><br><span class="line">POLYGONS 11 55</span><br><span class="line">4 0 3 2 1</span><br><span class="line">4 4 5 6 7</span><br><span class="line">4 0 1 5 4</span><br><span class="line">4 2 3 7 6</span><br><span class="line">4 0 4 7 3</span><br><span class="line">4 1 2 6 5</span><br><span class="line">4 1 8 9 2</span><br><span class="line">4 5 11 10 6</span><br><span class="line">4 8 9 10 11</span><br><span class="line">4 1 8 11 5</span><br><span class="line">4 2 9 10 6</span><br></pre></td></tr></table></figure><p>这个文件能够显示一个含有两个正方体的模型组成的长方体。如下图所示</p><p><img src="https://s2.loli.net/2022/01/23/2pR39qZ6xGEJwHF.png"></p><h3 id="显示模型边线"><a href="#显示模型边线" class="headerlink" title="显示模型边线"></a>显示模型边线</h3><p>这里要使用<code>vtkOutlineFilter()</code>来实现这个功能：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Outline</span></span><br><span class="line">outline = vtk.vtkOutlineFilter()</span><br><span class="line">outline.SetInputConnection(vtkReader.GetOutputPort())</span><br><span class="line">outline_mapper = vtk.vtkPolyDataMapper()</span><br><span class="line">outline_mapper.SetInputConnection(outline.GetOutputPort())</span><br><span class="line">outline_actor = vtk.vtkActor()</span><br><span class="line">outline_actor.SetMapper(outline_mapper)</span><br><span class="line">outline_actor.GetProperty().SetColor(<span class="number">1.0</span>, <span class="number">0.5</span>, <span class="number">1.0</span>)</span><br><span class="line"><span class="comment"># outline_actor.VisibilityOff()</span></span><br><span class="line">renderer.AddActor(outline_actor)</span><br></pre></td></tr></table></figure><p>将上述代码添加到该系列文档中的第一个文章中的代码中。则可显示出模型的边线，如图，这里把模型本身隐藏了</p><p><img src="https://s2.loli.net/2022/01/23/EQiZWKHgauIAXRw.png"></p><p>这里我们可以看出来，这个功能并不能显示出内部面的框线。如果想要实现显示内部框线，那我们需要<code>vtkFeatureEdges</code>这个功能。代码如下：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">featureEdges = vtk.vtkFeatureEdges()</span><br><span class="line">featureEdges.SetInputConnection(vtkReader.GetOutputPort())</span><br><span class="line"><span class="comment"># featureEdges.BoundaryEdgesOff() # 打开</span></span><br><span class="line">featureEdges.FeatureEdgesOff() <span class="comment"># 打开</span></span><br><span class="line">featureEdges.ManifoldEdgesOff()</span><br><span class="line"><span class="comment"># featureEdges.NonManifoldEdgesOff() # 打开</span></span><br><span class="line">featureEdges.ColoringOn()</span><br><span class="line">featureEdges.Update()</span><br><span class="line">edgeMapper = vtk.vtkPolyDataMapper()</span><br><span class="line">edgeMapper.SetInputConnection(featureEdges.GetOutputPort())</span><br><span class="line">edgeActor = vtk.vtkActor()</span><br><span class="line">edgeActor.SetMapper(edgeMapper)</span><br><span class="line">renderer.AddActor(edgeActor)</span><br></pre></td></tr></table></figure><p>选择打开<code>FeatureEdgesOn()</code></p><p><img src="https://s2.loli.net/2022/01/23/URVs8ymKxbPNioa.png"></p><p>可以看出来<code>Outline</code> 和 <code>Feature Edges</code>的显示是一样的。</p><p>我们再打开<code>ManifoldEdgesOn</code>，其中 Manifold edges 意思为交叠边，就是模型内部重复使用的边。</p><p><img src="https://s2.loli.net/2022/01/23/L5sHg31ath8AiZk.png"></p><p>我们打开<code>FeatureEdges</code>和<code>NonManifoldEdges</code>，就可以得到类似ABAQUS中隐藏实体网格一样的网格边线了。</p><p><img src="https://s2.loli.net/2022/01/23/Z3x6aXutrhCljWB.png"></p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;多边形Outline和-Feature-Line-创建&quot;&gt;&lt;a href=&quot;#多边形Outline和-Feature-Line-创建&quot; class=&quot;headerlink&quot; title=&quot;多边形Outline和 Feature Line 创建&quot;&gt;&lt;/a&gt;多边形Ou</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VTK 技术总结（一）多边形创建</title>
+    <link href="https://xiaosunstudy.com/2022/01/22/VTK/VTK_conclusion/"/>
+    <id>https://xiaosunstudy.com/2022/01/22/VTK/VTK_conclusion/</id>
+    <published>2022-01-22T10:39:41.848Z</published>
+    <updated>2022-01-23T10:22:36.733Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="多边形创建"><a href="#多边形创建" class="headerlink" title="多边形创建"></a>多边形创建</h3><p>传统VTK 文件包含五个部分：</p><ul><li><p>文件版本和标识符。这一部分包含<code># vtk DataFileVersion x.x</code>，除了版本号<code>x.x</code>之外，该行必须与显示的完全相同。</p></li><li><p>标题。标题由以行尾字符<code>\n</code>终止的字符组成。最大为256个字符，可用于描述数据并包括任何其它相关信息。</p></li><li><p>文件格式。文件格式描述文件的类型，可以是ASCII 或者二进制。在此行上，必须出现单个单词<code>ASCII</code>或者<code>BINARY</code></p></li><li><p>数据集结构。几何部分描述了数据集的几何和拓扑。这部分以包含关键字<code>DATASET</code> 的行开头，后跟描述数据集类型的关键字。然后根据数据集的类型，其他关键字&#x2F;数据组合将定义实际数据。</p></li><li><p>数据集属性。以关键字<code>POINT_DATA</code>或<code>CELL_DATA</code>开头，后跟一个整数，分别指定点或单元的数量。（先出现<code>POINT_DATA</code>还是<code>CELL_DATA</code>都没关系）。然后，其他关键字&#x2F;数据组合定义实际的数据集属性值（即标量，向量，张量，法线，纹理坐标或字段数据）。</p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># vtk DataFile Version 1.0</span><br><span class="line">Vibrational modes of plate</span><br><span class="line">ASCII</span><br><span class="line"></span><br><span class="line">DATASET POLYDATA</span><br><span class="line">POINTS 8 float</span><br><span class="line">0.0 0.0 0.0</span><br><span class="line">1.0 0.0 0.0</span><br><span class="line">1.0 1.0 0.0</span><br><span class="line">0.0 1.0 0.0</span><br><span class="line"></span><br><span class="line">POLYGONS 1 5</span><br><span class="line">4 0 1 2 3</span><br></pre></td></tr></table></figure><p>其中Polygons中的数据是需要保持逆时针或者顺时针的顺序（注意：虽然顺时针和逆时针都可以成功建立一个面，但是为了避免在复杂模型上的混淆，还是按照官网推荐的节点顺序（可看番外篇（一））建立比较好）。如上图所示，第一个坐标点是原点，第二个坐标点是在 x 方向上位置为 1.0 的点，第三个点的坐标是（1.0， 1.0， 0），第四个坐标点是在 y 方向上位置为 1.0 的点。则它们的顺序可以是：0123，0321。其展示的图形是一个正方形：</p><p><img src="https://s2.loli.net/2022/01/22/tan2PrxH3dTNObX.png"></p><p>但是如果我们将其顺序变成 0213 （图中1324）排列：</p><p><img src="https://s2.loli.net/2022/01/22/gQIfenGik2RL418.png"></p><p>可以发现，它的图形并不是一个正方形了。</p><p>随后我们再增加一面，作为底面，只需要在<code>POINTS 8 float</code>里面加入两个坐标点（0.0， 0.0， 1.0）（1.0， 0.0， 1.0），然后在<code>POLYGONS 2 10</code>中加入新的面，如：0154。我们就可以得到底面了：<br><img src="https://s2.loli.net/2022/01/22/8mruPedRAthp3bl.png"></p><p>按照此规则我们可以得到一个完整的正方体：</p><p><img src="https://s2.loli.net/2022/01/22/XqdJmbz8e1IEOk9.png"></p><hr><p>那么我们可以试图把ABAQUS中生成的<code>.inp</code>文件，根据ABAQUS中mesh的网格序号规则，转为<code>.vtk</code>文件。但是这里是使用了<code>Ploygonal data</code>, 实际上我们还可以选择<code>Structured Points, Structured Grid, Rectilinear Grid, Unstructured Grid, Field</code>。对于有限元的学习和使用，我们选择<code>Unstructured Grid</code>是最方便的，因为它的兼容性更高一些。</p><p>我们还需要验证几个功能，包括网格边线的显示，CELL的颜色赋予等等。在之后的使用中，我们就使用<code>Unstructured Grid</code>格式的数据集来学习。</p><p>下面是完整代码，通过python显示<code>.vtk</code>文件。其中，我们读取的数据集是由<code>Poligonal data</code>格式组成的，所以就使用了<code>vtkPolyDataReader</code>来读取数据集。通过<code>actor.VisibilityOff()</code>可以隐藏模型。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> vtk</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">path</span>):</span><br><span class="line">    <span class="comment"># 1.创建RenderWindow窗口</span></span><br><span class="line">    renderer = vtk.vtkRenderer()</span><br><span class="line">    renderWindow = vtk.vtkRenderWindow()</span><br><span class="line">    renderWindow.AddRenderer(renderer)</span><br><span class="line">    renderWindowInteractor = vtk.vtkRenderWindowInteractor()</span><br><span class="line">    renderWindowInteractor.SetRenderWindow(renderWindow)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.创建render</span></span><br><span class="line">    renderer = vtk.vtkRenderer()</span><br><span class="line">    renderer.SetBackground(<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>)  <span class="comment"># 设置页面底部颜色值</span></span><br><span class="line">    renderer.SetBackground2(<span class="number">0.1</span>, <span class="number">0.2</span>, <span class="number">0.4</span>)  <span class="comment"># 设置页面顶部颜色值</span></span><br><span class="line">    renderer.SetGradientBackground(<span class="number">1</span>)  <span class="comment"># 开启渐变色背景设置</span></span><br><span class="line">    renderWindow.AddRenderer(renderer)</span><br><span class="line">    renderWindow.Render()</span><br><span class="line">    <span class="comment"># 3.设置交互方式</span></span><br><span class="line">    iren = renderWindow.GetInteractor()</span><br><span class="line">    style = vtk.vtkInteractorStyleTrackballCamera()</span><br><span class="line">    style.SetDefaultRenderer(renderer)</span><br><span class="line">    iren.SetInteractorStyle(style)</span><br><span class="line">    <span class="comment"># 4.添加世界坐标系</span></span><br><span class="line">    axesActor = vtk.vtkAxesActor()</span><br><span class="line">    axes_widget = vtk.vtkOrientationMarkerWidget()</span><br><span class="line">    axes_widget.SetOrientationMarker(axesActor)</span><br><span class="line">    axes_widget.SetInteractor(iren)</span><br><span class="line">    axes_widget.EnabledOn()</span><br><span class="line">    axes_widget.InteractiveOff()  <span class="comment"># 坐标系是否可移动</span></span><br><span class="line">    <span class="comment"># 5.读取VTK文件</span></span><br><span class="line">    vtkReader = vtk.vtkPolyDataReader()</span><br><span class="line">    vtkReader.SetFileName(path)</span><br><span class="line">    vtkReader.ReadAllVectorsOn()</span><br><span class="line">    vtkReader.ReadAllScalarsOn()</span><br><span class="line">    vtkReader.Update()</span><br><span class="line"></span><br><span class="line">    vtkMapper = vtk.vtkPolyDataMapper()</span><br><span class="line">    vtkMapper.SetInputConnection(vtkReader.GetOutputPort())</span><br><span class="line">    actor = vtk.vtkActor()</span><br><span class="line">    actor.SetMapper(vtkMapper)</span><br><span class="line">    <span class="comment"># actor.VisibilityOff()</span></span><br><span class="line">    renderer.AddActor(actor)</span><br><span class="line"></span><br><span class="line">    renderer.ResetCamera()</span><br><span class="line">    renderWindowInteractor.Start()</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main(path=<span class="string">&#x27;vtk_text.vtk&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;多边形创建&quot;&gt;&lt;a href=&quot;#多边形创建&quot; class=&quot;headerlink&quot; title=&quot;多边形创建&quot;&gt;&lt;/a&gt;多边形创建&lt;/h3&gt;&lt;p&gt;传统VTK 文件包含五个部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文件版本和标识符。这一部分包含&lt;code&gt;# vtk</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="VTK" scheme="https://xiaosunstudy.com/tags/VTK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PyQt - 有限元图形界面的建立</title>
+    <link href="https://xiaosunstudy.com/2022/01/21/PyQt/UI_construction/"/>
+    <id>https://xiaosunstudy.com/2022/01/21/PyQt/UI_construction/</id>
+    <published>2022-01-21T21:16:45.502Z</published>
+    <updated>2022-01-22T08:07:00.796Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前用过PyQt 来创建图形界面，结果长时间没用，忘记如何用了。正好项目又有涉及到这一部分的内容，从现在开始就开始记录一下使用过程吧。</p><p>这次的主要目的是创建一个图形界面，有简单的几个按键，而且还要有VTK文件展示窗口。所以整体来说，这个的应用还是有很大局限性的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;之前用过PyQt 来创建图形界面，结果长时间没用，忘记如何用了。正好项目又有涉及到这一部分的内容，从现在开始就开始记录一下使用过程吧。&lt;/p</summary>
+      
+    
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+    <category term="User Interface" scheme="https://xiaosunstudy.com/tags/User-Interface/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过Python文件调用另一个Python文件，并传递参数</title>
+    <link href="https://xiaosunstudy.com/2022/01/20/Python%E7%9B%B8%E5%85%B3/Python_transferparameters/"/>
+    <id>https://xiaosunstudy.com/2022/01/20/Python%E7%9B%B8%E5%85%B3/Python_transferparameters/</id>
+    <published>2022-01-20T21:59:19.231Z</published>
+    <updated>2022-01-21T09:12:58.610Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="实施方法"><a href="#实施方法" class="headerlink" title="实施方法"></a>实施方法</h2><p>在要调用的<code>.py</code>文件中导入<code>sys</code>。确定需要参数的数量和类型</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">paramA = sys.argv[<span class="number">1</span>]</span><br><span class="line">paramB = sys.argv[<span class="number">2</span>]</span><br><span class="line">paramC = sys.argv[<span class="number">3</span>]</span><br><span class="line">paramD = sys.argv[<span class="number">4</span>]</span><br></pre></td></tr></table></figure><p>在另一个 <code>.py</code> 文件，通过<code>os.system</code> 调用之前的 <code>.py</code> 文件。这里的 <code>file_path</code> 是绝对路径，后面的参数都是字符串，所以用的是 <code>%s</code>。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.system(<span class="string">&quot;python &quot;</span> + file_path + <span class="string">&quot; %s %s %s %s&quot;</span> % (paramA, paramB, paramC, paramD))</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;实施方法&quot;&gt;&lt;a href=&quot;#实施方法&quot; class=&quot;headerlink&quot; title=&quot;实施方法&quot;&gt;&lt;/a&gt;实施方法&lt;/h2&gt;&lt;p&gt;在要调用的&lt;code&gt;.py&lt;/code&gt;文件中导入&lt;code&gt;sys&lt;/code&gt;。确定需要参数的数量和类型&lt;/p&gt;
+&lt;f</summary>
+      
+    
+    
+    
+    <category term="Python技巧" scheme="https://xiaosunstudy.com/categories/Python%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SolidWokrs VBA 技术总结</title>
+    <link href="https://xiaosunstudy.com/2022/01/19/Solidworks_VBA/"/>
+    <id>https://xiaosunstudy.com/2022/01/19/Solidworks_VBA/</id>
+    <published>2022-01-19T08:54:25.116Z</published>
+    <updated>2022-01-19T08:56:13.290Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="SolidWorks-VBA"><a href="#SolidWorks-VBA" class="headerlink" title="SolidWorks + VBA"></a>SolidWorks + VBA</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;SolidWorks-VBA&quot;&gt;&lt;a href=&quot;#SolidWorks-VBA&quot; class=&quot;headerlink&quot; title=&quot;SolidWorks + VBA&quot;&gt;&lt;/a&gt;SolidWorks + VBA&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="SolidWorks" scheme="https://xiaosunstudy.com/tags/SolidWorks/"/>
+    
+    <category term="Automated model construction" scheme="https://xiaosunstudy.com/tags/Automated-model-construction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Voxel mesh model 体素元模型建立 （一）</title>
+    <link href="https://xiaosunstudy.com/2022/01/18/Mesh/Voxel_mesh_method/"/>
+    <id>https://xiaosunstudy.com/2022/01/18/Mesh/Voxel_mesh_method/</id>
+    <published>2022-01-18T14:44:34.778Z</published>
+    <updated>2022-01-18T15:31:45.598Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是体素？"><a href="#什么是体素？" class="headerlink" title="什么是体素？"></a>什么是体素？</h2><p>本文将通过使用图像处理的方法来创建体素模型。最终将在Paraview中展现出来。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;什么是体素？&quot;&gt;&lt;a href=&quot;#什么是体素？&quot; class=&quot;headerlink&quot; title=&quot;什么是体素？&quot;&gt;&lt;/a&gt;什么是体素？&lt;/h2&gt;&lt;p&gt;本文将通过使用图像处理的方法来创建体素模型。最终将在Paraview中展现出来。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="有限元" scheme="https://xiaosunstudy.com/tags/%E6%9C%89%E9%99%90%E5%85%83/"/>
+    
+    <category term="Voxel mesh" scheme="https://xiaosunstudy.com/tags/Voxel-mesh/"/>
+    
+    <category term="Paraview" scheme="https://xiaosunstudy.com/tags/Paraview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过Python生成随机纤维 RVE 模型并导入到ABAQUS中进行分析</title>
+    <link href="https://xiaosunstudy.com/2022/01/18/RVE_Generator/"/>
+    <id>https://xiaosunstudy.com/2022/01/18/RVE_Generator/</id>
+    <published>2022-01-18T09:22:14.529Z</published>
+    <updated>2022-01-21T09:32:12.524Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="RVE"><a href="#RVE" class="headerlink" title="RVE"></a>RVE</h2><p>An RVE can be defined as the smallest volume of the material which remains representative of the bulk&#x2F;effective properties of the material.</p><h2 id="Concept"><a href="#Concept" class="headerlink" title="Concept"></a>Concept</h2><p>The initial concept for random fibre RVE model creation is to generate the fibre centroid randomly within the specific range, which is the dimension of RVE model. If the cubic RVE model is required, the sum of side value of RVE model and fibre radius is the boundary for fibre centroid location.</p><p>However, it is obviously that the randomly fibre centroid generation method cannot bring us a high fibre volume fraction. In my test, it can be used for generating RVE model with fibre volume fraction of 39%. </p><p>对于这个文章，有39% 的纤维含量的RVE 模型已经足够了，因为这只是个讲解。我目前的RVE 模型生成器可以大概达到55% 的纤维模量。其实对于我的复合材料项目，这个模型已经够了。如果想要生成更高纤维含量的RVE 模型，可以阅读以下几篇文献，相信它们能够提供一些灵感。不过有些文献中的纤维坐标生成方法好像违背了“随机”的初衷。</p><h3 id="RVE-模型大小"><a href="#RVE-模型大小" class="headerlink" title="RVE 模型大小"></a>RVE 模型大小</h3><p>对于RVE 模型的大小，这里使用的是50倍的纤维半径来作为RVE 的模型大小。我忘记是哪一篇文献中提到的要使用50倍这个数值了。但是实际上，我们选取RVE 模型的大小还是要根据RVE 的定义来。它不能过大以至于增加模拟的负担，也不能过小丧失代表性。在以下要讲解的这个例子中，我们还是以50倍为标准吧。</p><h3 id="纤维生成规则"><a href="#纤维生成规则" class="headerlink" title="纤维生成规则"></a>纤维生成规则</h3><p>在RVE 模型中，纤维的生成还是要保证一些规则的。</p><ul><li><p>It is obviously that we cannot generate overlap fibres within the RVE model. Therefore, the distance between each fibre is doubled fibre radius at least.</p></li><li><p>The fibre cannot be created outside of RVE model.</p></li><li><p>If the fibre generated at the one side of RVE model, a corresponding fibre should be created at the opposite side to make the periodic properties.</p></li></ul><hr><h2 id="Python建模"><a href="#Python建模" class="headerlink" title="Python建模"></a>Python建模</h2><p>首先要导入一些必要的库 numpy 和 matplotlib肯定是必不可少的。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> time</span><br></pre></td></tr></table></figure><h3 id="纤维中心距离判定"><a href="#纤维中心距离判定" class="headerlink" title="纤维中心距离判定"></a>纤维中心距离判定</h3><p>这里我规定了两个纤维最小距离（distance）为<code>2 * fibre radius + 0.1</code>。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">distance_determine</span>(<span class="params">self, r, x, y, x_data, y_data</span>):</span><br><span class="line">    length = <span class="built_in">len</span>(x_data)</span><br><span class="line">    <span class="keyword">if</span> length &gt; <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(length-<span class="number">1</span>):</span><br><span class="line">            distance = np.sqrt(np.square(x - x_data[i]) + np.square(y - y_data[i]))</span><br><span class="line">            <span class="comment"># print(&quot;Distance: &quot;, distance)</span></span><br><span class="line">            <span class="keyword">if</span> distance &lt;= <span class="number">2</span> * r + <span class="number">0.1</span>:</span><br><span class="line">                x_data.remove(x)</span><br><span class="line">                y_data.remove(y)</span><br><span class="line">                <span class="comment"># print(&#x27;Removed!&#x27;)</span></span><br><span class="line">                new_point = <span class="string">&#x27;False&#x27;</span></span><br><span class="line">                <span class="keyword">return</span> new_point, x_data, y_data</span><br><span class="line">            <span class="keyword">elif</span> distance &gt; <span class="number">2</span> * r + <span class="number">0.1</span>:</span><br><span class="line">                <span class="comment"># print(&#x27;Not removed!&#x27;)</span></span><br><span class="line">                new_point = <span class="string">&#x27;True&#x27;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            new_point = <span class="string">&#x27;Equal&#x27;</span></span><br><span class="line">        <span class="keyword">return</span> new_point, x_data, y_data</span><br></pre></td></tr></table></figure><h3 id="RVE-模型可视化"><a href="#RVE-模型可视化" class="headerlink" title="RVE 模型可视化"></a>RVE 模型可视化</h3><p>We need to consider visualizing the RVE model using Python. Although we implemented a very solid rule for generating fibres within the RVE model, it is worthwhile to visualize the distribution of fibres by Python before constructing RVE model in the ABAQUS. 在导入到 ABAQUS 建立模型之前，我们要考虑一下如何把 RVE 模型可视化出来进行初步检验。</p><p>最重要的部分是如何在<code>matplotlib</code>中生成一个圆来代表纤维。Matplotlib好像没有直接建立圆形的工具，但是可以间接的建立。通过matplotlib建立两个半圆弧，然后合并在一起就是一个圆了。下面的代码需要传入的数据包含纤维的大小，纤维原点 <code>x, y</code> 的坐标信息，还有两个变量用于更直观的展示当前RVE模型的纤维含量和生成此RVE模型的迭代次数。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">display</span>(<span class="params">self, r, x_c, y_c, vf_current, Max_iteration</span>):</span><br><span class="line">    plt.title(<span class="string">&#x27;Random Fibre Distribution, \nFibre Volume fraction: %s&#x27;</span></span><br><span class="line">              <span class="string">&#x27; \nMaximum Iteration: %d&#x27;</span> % (vf_current, Max_iteration))</span><br><span class="line">    <span class="comment"># 点的横坐标为a，是个范围值</span></span><br><span class="line">    a = np.arange(x_c - r, x_c + r, <span class="number">0.001</span>)</span><br><span class="line">    <span class="comment"># print(type(a))</span></span><br><span class="line">    <span class="comment"># 点的纵坐标为b</span></span><br><span class="line">    <span class="keyword">if</span> (a &gt; <span class="built_in">abs</span>(x_c)).<span class="built_in">any</span>() <span class="keyword">and</span> x_c &lt; <span class="number">0</span>:</span><br><span class="line">        b1 = np.sqrt(np.power(r, <span class="number">2</span>) - np.power((x_c - a), <span class="number">2</span>)) + y_c</span><br><span class="line">        b2 = -np.sqrt(np.power(r, <span class="number">2</span>) - np.power((x_c - a), <span class="number">2</span>)) + y_c</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        b1 = np.sqrt(np.power(r, <span class="number">2</span>) - np.power((a - x_c), <span class="number">2</span>)) + y_c</span><br><span class="line">        b2 = -np.sqrt(np.power(r, <span class="number">2</span>) - np.power((a - x_c), <span class="number">2</span>)) + y_c</span><br><span class="line">    plt.plot(a, b1, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>)</span><br><span class="line">    plt.plot(a, b2, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>)</span><br><span class="line">    plt.axis([<span class="number">0</span>, <span class="number">50</span> * r, <span class="number">0</span>, <span class="number">50</span> * r])</span><br></pre></td></tr></table></figure><p>此代码一次只能展示一个纤维，所以我们在<code>Fibre_generation</code> 这个function中生成了多少个纤维，就会调用这个function多少次。</p><h3 id="Fibres-信息输出"><a href="#Fibres-信息输出" class="headerlink" title="Fibres 信息输出"></a>Fibres 信息输出</h3><p>我们还需要把纤维的坐标信息分别输出到<code>.txt</code>文件中，当然也可以输出到同一个文件，为了之后对生成的纤维的横纵坐标做数据分析，这里我生成了两个文件分别包含了纤维中心点的横纵坐标：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">output_txt</span>(<span class="params">self, x, y, data_name_x, data_name_y</span>):</span><br><span class="line">    np.savetxt(data_name_x, x)</span><br><span class="line">    np.savetxt(data_name_y, y)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;RVE&quot;&gt;&lt;a href=&quot;#RVE&quot; class=&quot;headerlink&quot; title=&quot;RVE&quot;&gt;&lt;/a&gt;RVE&lt;/h2&gt;&lt;p&gt;An RVE can be defined as the smallest volume of the material which</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="ABAQUS" scheme="https://xiaosunstudy.com/tags/ABAQUS/"/>
+    
+    <category term="RVE" scheme="https://xiaosunstudy.com/tags/RVE/"/>
+    
+    <category term="Python" scheme="https://xiaosunstudy.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Periodic Boundary Condition (PBC) 及其 ABAQUS 实现</title>
+    <link href="https://xiaosunstudy.com/2022/01/18/PBCs/"/>
+    <id>https://xiaosunstudy.com/2022/01/18/PBCs/</id>
+    <published>2022-01-18T09:05:04.278Z</published>
+    <updated>2022-01-21T09:31:31.201Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><p>Periodic Boundary Condition (PBC)，又称周期性边界条件，经常被用来施加在代表性单元或者体元上。 </p><p>对于 PBC 的施加，有如下两个先提条件：</p><ul><li>模型必须是足够有代表性；</li><li>RVE 或者 RUC 模型的两两对立面上的节点数目和节点位置必须相同。</li></ul><p>然而如何保证RVE 模型在对立面的节点数和节点位置相同是很困难的。而且通常为了保证精度，我们划分 RVE 模型的网格数量相对来说比较多，手动选取各个面上的点从而建立Interaction的方程有点不太现实。所以 PBC 在 RVE 上的施加通常会使用 Python，MATLAB等计算机语言。</p><h2 id="RUC-amp-RVE"><a href="#RUC-amp-RVE" class="headerlink" title="RUC &amp; RVE"></a>RUC &amp; RVE</h2><p>虽然之前的博客中已经记录了一些关于 RUC 和 RVE 的介绍，在这里还是重复记录一下，以加深印象。</p><p>An RVE can be defined as the smallest volume of the material which remains representative of the bulk&#x2F;effective properties of the material.</p><h2 id="PBC"><a href="#PBC" class="headerlink" title="PBC"></a>PBC</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;Periodic Boundary Condition (PBC)，又称周期</summary>
+      
+    
+    
+    
+    <category term="Modelling" scheme="https://xiaosunstudy.com/categories/Modelling/"/>
+    
+    
+    <category term="PBC" scheme="https://xiaosunstudy.com/tags/PBC/"/>
+    
+    <category term="ABAQUS" scheme="https://xiaosunstudy.com/tags/ABAQUS/"/>
+    
+  </entry>
+  
+</feed>
