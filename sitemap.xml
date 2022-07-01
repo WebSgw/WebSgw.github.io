@@ -339,13 +339,6 @@
   </url>
   
   <url>
-    <loc>https://xiaosunstudy.com/tags/Automated-model-construction/</loc>
-    <lastmod>2022-07-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaosunstudy.com/tags/Typora/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,14 +346,7 @@
   </url>
   
   <url>
-    <loc>https://xiaosunstudy.com/tags/%E5%85%83%E8%83%9E%E8%87%AA%E5%8A%A8%E6%9C%BA/</loc>
-    <lastmod>2022-07-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaosunstudy.com/tags/%E6%9C%89%E9%99%90%E5%85%83/</loc>
+    <loc>https://xiaosunstudy.com/tags/Automated-model-construction/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -409,6 +395,13 @@
   </url>
   
   <url>
+    <loc>https://xiaosunstudy.com/tags/%E6%9C%89%E9%99%90%E5%85%83/</loc>
+    <lastmod>2022-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaosunstudy.com/tags/Paraview/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -417,6 +410,13 @@
   
   <url>
     <loc>https://xiaosunstudy.com/tags/User-Interface/</loc>
+    <lastmod>2022-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaosunstudy.com/tags/%E5%85%83%E8%83%9E%E8%87%AA%E5%8A%A8%E6%9C%BA/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -516,14 +516,14 @@
   </url>
   
   <url>
-    <loc>https://xiaosunstudy.com/categories/ImageJ/</loc>
+    <loc>https://xiaosunstudy.com/categories/Image-Processing/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaosunstudy.com/categories/Image-Processing/</loc>
+    <loc>https://xiaosunstudy.com/categories/ImageJ/</loc>
     <lastmod>2022-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
